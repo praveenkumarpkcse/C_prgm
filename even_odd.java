@@ -7,11 +7,11 @@ public class even_odd
 	   
 	try
       {
-        int no;
+        int num;
         Scanner s= new Scanner(System.in);
-        no=s.nextInt();
+        num=s.nextInt();
 		
-        if(no % 2==0)
+        if(num % 2==0)
         {
             System.out.println("Even");
         }
