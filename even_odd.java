@@ -5,13 +5,13 @@ public class even_odd
 	public static void main(String[] args)
 	{
 	   
-		 try
+	try
       {
-        int number;
+        int no;
         Scanner s= new Scanner(System.in);
-        number=s.nextInt();
+        no=s.nextInt();
 		
-        if(number % 2==0)
+        if(no % 2==0)
         {
             System.out.println("Even");
         }
