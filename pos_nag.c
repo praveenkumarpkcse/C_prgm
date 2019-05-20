@@ -1,18 +1,18 @@
 #include<stdio.h>
 void main()
 {
-int a ;
-scanf("%d",&a);
-if(a==0)
+int no ;
+scanf("%d",&no);
+if(no==0)
 {
 printf("Zero");
 }
-else if(a>0)
+else if(no>0)
 {
-printf("positive");
+printf("Positive");
 }
 else
 {
-printf("negative");
+printf("Negative");
 }
 }
