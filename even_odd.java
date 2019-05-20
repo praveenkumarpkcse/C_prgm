@@ -17,12 +17,12 @@ public class even_odd
         }
         else
         {
-             System.out.println("ODD");
+             System.out.println("Odd");
         }
       }
      catch(Exception e)
      {
-        System.out.println("Invalid");
+        System.out.println("invalid");
      }
 	}
 }
