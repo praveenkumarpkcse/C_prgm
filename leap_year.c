@@ -5,18 +5,18 @@ void main()
  scanf("%d",&year);
  if(year%400==0)
  {
-     printf("Yes");
+     printf("yes");
  }
  else if(year %100==0)
  {
-     printf("No");
+     printf("no");
  }
  else if(year%4==0)
  {
-     printf("Yes");
+     printf("yes");
  }
  else
  {
-     printf("No");
+     printf("no");
  }
 }
